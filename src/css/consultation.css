@@ -23,14 +23,6 @@ input{ margin: 0 0 5px 0; }
 
 #btn-other-pages button{ width: 100%; }
 
-.img{
-    width: 300px;
-    height: 300px;
-    border-radius: 0 0 5px 5px;
-    background-color: #4527a0;
-    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.712);
-}
-
 table{
     width: 298px;
     max-width: 300px;
