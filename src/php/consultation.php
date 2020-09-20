@@ -30,9 +30,7 @@
                             </tr>
                         </table>
                     </div>
-                <div class="img"> </div>
-
-                    <!-- <img class="img" src="a" alt=""> -->
+                    <img class="img" src="" alt="">
                 </div>
                 <div id="config-panel-content">     
                     <form action="" method="post">

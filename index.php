@@ -18,7 +18,7 @@
         <div id="aling-center">
             <div id="main-container">
                 <div id="container-image-showcase">
-                    <img src="a" alt="">
+                    <img class="img" src="" alt="">
                 </div>
                 <hr>
                 <div id="config-panel-content">
