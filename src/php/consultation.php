@@ -13,8 +13,36 @@
     <body>
         <div id="aling-center">
             <div id="main-container">
-                <div id="container-image-showcase">
-                    <div class="desc">
+                 <div id="container-image-showcase">    
+                    <?php
+                        session_start();
+
+                        if(isset($_GET['sucesso']) == 1){
+                            define("CAMINHO","../../assets/");
+
+                            try{
+                                $imgData = $_SESSION['imgData'];
+                                echo 
+                                "<img class='img'".
+                                "src="
+                                ."'". 
+                                CAMINHO . $_SESSION['imgData'][2]
+                                ."'".
+                                "alt="
+                                ."'". 
+                                $_SESSION['imgData'][3]
+                                ."'".
+                                ">";
+                            }catch (Exception $e) {
+                                echo 
+                                "<script>".
+                                "console.log('Exceção capturada: ', $e->getMessage(), '\n')".
+                                "</script>";
+                            }
+                        }
+                    ?>
+                </div>
+<!--                     <div class="desc">
                         <table>
                             <tr>
                                 <th>Categoria</th>
@@ -29,14 +57,12 @@
                                 <td></td>
                             </tr>
                         </table>
-                    </div>
-                    <img class="img" src="" alt="">
-                </div>
+                    </div> -->
                 <div id="config-panel-content">     
                     <form action="./db_actions/db_consultation.php" method="post">
                         <div id="consultation-input-container">
-                            <input type="text" placeholder="Código da imagem*" required>
-                            <input type="text" placeholder="Categoria da imagem">
+                            <label for="">Código da imagem</label>
+                            <input type="number" name="imgCodigo" placeholder="Ex: 1*" minlength="0" maxlength="2" required>
                             <button type="submit" title="Consultar imagem" name="btn-consultation">
                                 <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
                                     <path d="M0 0h24v24H0z" fill="none"/>
