@@ -16,10 +16,12 @@
                 <div id="config-panel-content">     
                     <form action="./db_actions/db_register.php" method="post">
                         <div id="consultation-input-container">
+                            <label for="">Nome da imagem</label>
+                            <input type="text" name="imgNome" placeholder="Ex: Panda*" required>
                             <label for="">Caminho da imagem</label>
-                            <input type="text" placeholder="Ex. panda.png*" required>
+                            <input type="text" name="imgCaminho" placeholder="Ex: panda.png*" required>
                             <label for="">Assunto da imagem</label>
-                            <input type="text" placeholder="Ex. Animal*" required>
+                            <input type="text" name="imgAssunto" placeholder="Ex: Animal*" required>
                             <button type="submit" title="Incluir imagem" name="btn-register">
                                 <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
                                     <path d="M0 0h24v24H0z" fill="none"/>
