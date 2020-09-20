@@ -5,12 +5,14 @@
         ""
     );
 
+    mysqli_set_charset($connection, 'utf8');
+
     if($connection->connect_error){
         die("Connection failed: " . $connection->connect_error);
     }
 
     // Creating DB 
-    $sql = "CREATE DATABASE image_treatment";
+    $sql = "CREATE DATABASE image_treatment CHARACTER SET utf8 COLLATE utf8_bin";
     switch($connection->query($sql)){
         case TRUE:
             echo 
