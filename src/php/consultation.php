@@ -33,12 +33,12 @@
                     <img class="img" src="" alt="">
                 </div>
                 <div id="config-panel-content">     
-                    <form action="" method="post">
+                    <form action="./db_actions/db_consultation.php" method="post">
                         <div id="consultation-input-container">
                             <input type="text" placeholder="Código da imagem*" required>
                             <input type="text" placeholder="Categoria da imagem">
-                            <button type="submit" title="Consultar imagem">
-                            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+                            <button type="submit" title="Consultar imagem" name="btn-consultation">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
                                     <path d="M0 0h24v24H0z" fill="none"/>
                                     <path d="M0 0h24v24H0V0z" fill="none"/>
                                     <path class="svg" d="M18 13v7H4V6h5.02c.05-.71.22-1.38.48-2H4c-1.1 

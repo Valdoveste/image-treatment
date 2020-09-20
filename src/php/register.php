@@ -14,13 +14,13 @@
         <div id="aling-center">
             <div id="main-container">
                 <div id="config-panel-content">     
-                    <form action="" method="post">
+                    <form action="./db_actions/db_register.php" method="post">
                         <div id="consultation-input-container">
                             <label for="">Caminho da imagem</label>
                             <input type="text" placeholder="Ex. panda.png*" required>
                             <label for="">Assunto da imagem</label>
                             <input type="text" placeholder="Ex. Animal*" required>
-                            <button type="submit" title="Incluir imagem">
+                            <button type="submit" title="Incluir imagem" name="btn-register">
                                 <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
                                     <path d="M0 0h24v24H0z" fill="none"/>
                                     <path class="svg" d="M19 7v2.99s-1.99.01-2 0V7h-3s.01-1.99 
