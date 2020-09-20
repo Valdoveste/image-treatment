@@ -6,6 +6,8 @@
     justify-items: center;
 }
 
+#consultation-input-container label{ color: rgb(139, 139, 139); }
+
 #consultation-input-container{ flex-wrap: wrap; }
 
 #consultation-input-container:first-child{ margin-top: 15px; }
@@ -42,7 +44,7 @@ table{
     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.712);
 }
 
-table th, table td{ color: rgb(206, 205, 205); }
+table th, table td{ color: rgb(139, 139, 139); }
 
 table th{ font-weight: bold; }
 
