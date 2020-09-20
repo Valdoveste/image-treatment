@@ -40,12 +40,15 @@
                             <input type="text" placeholder="Código da imagem*" required>
                             <input type="text" placeholder="Categoria da imagem">
                             <button type="submit" title="Consultar imagem">
-                                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
                                     <path d="M0 0h24v24H0z" fill="none"/>
-                                    <path class="svg" d="M19 7v2.99s-1.99.01-2 0V7h-3s.01-1.99 
-                                    0-2h3V2h2v3h3v2h-3zm-3 4V8h-3V5H5c-1.1 0-2 .9-2 
-                                    2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2v-8h-3zM5 
-                                    19l3-4 2 3 3-4 4 5H5z"/>
+                                    <path d="M0 0h24v24H0V0z" fill="none"/>
+                                    <path class="svg" d="M18 13v7H4V6h5.02c.05-.71.22-1.38.48-2H4c-1.1 
+                                    0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-5l-2-2zm-1.5 
+                                    5h-11l2.75-3.53 1.96 2.36 2.75-3.54zm2.8-9.11c.44-.7.7-1.51.7-2.39C20 
+                                    4.01 17.99 2 15.5 2S11 4.01 11 6.5s2.01 4.5 4.49 4.5c.88 0 1.7-.26 
+                                    2.39-.7L21 13.42 22.42 12 19.3 8.89zM15.5 9C14.12 9 13 7.88 13 6.5S14.12 
+                                    4 15.5 4 18 5.12 18 6.5 16.88 9 15.5 9z"/>
                                 </svg>
                             </button>
                         </div>
@@ -63,16 +66,13 @@
                             </a>
                         </button>
                         <button title="Incluir imagem">
-                            <a href="">
-                                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+                            <a href="./register.php">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
                                     <path d="M0 0h24v24H0z" fill="none"/>
-                                    <path d="M0 0h24v24H0V0z" fill="none"/>
-                                    <path class="svg" d="M18 13v7H4V6h5.02c.05-.71.22-1.38.48-2H4c-1.1 
-                                    0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-5l-2-2zm-1.5 
-                                    5h-11l2.75-3.53 1.96 2.36 2.75-3.54zm2.8-9.11c.44-.7.7-1.51.7-2.39C20 
-                                    4.01 17.99 2 15.5 2S11 4.01 11 6.5s2.01 4.5 4.49 4.5c.88 0 1.7-.26 
-                                    2.39-.7L21 13.42 22.42 12 19.3 8.89zM15.5 9C14.12 9 13 7.88 13 6.5S14.12 
-                                    4 15.5 4 18 5.12 18 6.5 16.88 9 15.5 9z"/>
+                                    <path class="svg" d="M19 7v2.99s-1.99.01-2 0V7h-3s.01-1.99 
+                                    0-2h3V2h2v3h3v2h-3zm-3 4V8h-3V5H5c-1.1 0-2 .9-2 
+                                    2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2v-8h-3zM5 
+                                    19l3-4 2 3 3-4 4 5H5z"/>
                                 </svg>
                             </a>
                         </button>
