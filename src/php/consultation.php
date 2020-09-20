@@ -53,7 +53,7 @@
 
                     <hr>
 
-                    <div id="bnt-other-pages">
+                    <div id="btn-other-pages">
                         <button title="Voltar para home">
                             <a href="../../index.php">
                                 <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
