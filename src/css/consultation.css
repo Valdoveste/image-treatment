@@ -1,6 +1,6 @@
 #container-image-showcase{ flex-direction: column; }
 
-#consultation-input-container, #bnt-other-pages, a{
+#consultation-input-container, #btn-other-pages, a{
     display: flex;
     align-items: center;
     justify-items: center;
@@ -21,7 +21,7 @@ input{ margin: 0 0 5px 0; }
 
 #config-panel-content{ display: block; }
 
-#bnt-other-pages button{ width: 100%; }
+#btn-other-pages button{ width: 100%; }
 
 a{
     width: 100%;
