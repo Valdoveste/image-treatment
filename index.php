@@ -1,5 +1,5 @@
 <?php
-    // require_once '';
+    require_once './src/php/db_actions/db_core.php';
 ?>
 
 <!DOCTYPE html>
