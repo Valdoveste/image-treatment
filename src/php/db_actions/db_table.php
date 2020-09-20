@@ -8,7 +8,7 @@ $sql = "CREATE TABLE images (
     nomeimg VARCHAR(30) NOT NULL,
     urlimg VARCHAR(30) NOT NULL,
     assunto VARCHAR(30) NOT NULL
-)";
+) DEFAULT CHARSET = utf8 COLLATE = utf8_bin";
 
 switch($connection->query($sql)){
     case TRUE:
