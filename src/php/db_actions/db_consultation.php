@@ -14,9 +14,15 @@
             $_SESSION['imgData'] = $data;
             header('Location: ../consultation.php?sucesso=1');
         }else{
-            echo "Codigo";
+            echo
+                "<script>".
+                    "alert(Esse código não foi econtrado em nosso banco de dados.)".
+                "</script>";
         }
     }else{
-        echo "Button";
+        echo
+            "<script>".
+                "alert(Um erro ocorreu, porfavor contate o suporte.)".
+            "</script>";
     } 
 ?>

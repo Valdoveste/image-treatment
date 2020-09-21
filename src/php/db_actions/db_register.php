@@ -22,6 +22,9 @@
             }
         }
     }else{
-        echo "Button";
+        echo
+            "<script>".
+                "alert(Um erro ocorreu, porfavor contate o suporte.)".
+            "</script>";
     }
 ?>

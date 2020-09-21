@@ -18,24 +18,31 @@
         <div id="aling-center">
             <div id="main-container">
                 <div id="container-image-showcase">
-                    <img class="img" src="" alt="">
+                    <?php 
+/*                     session_start();
+                        include './src/php/db_actions/db_randimg.php'; 
+
+                            define("CAMINHO","./assets/"); */
+
+                    ?>
+                    <img class="img" src="https://cdnb.artstation.com/p/assets/images/images/021/811/795/original/taua-cabus-17194900-369140990136080-8592487026639503360-n-1.gif?1573038810" alt="">
                 </div>
                 <hr>
                 <div id="config-panel-content">
                     <!-- Botões de proximo e anterior -->
-                    <button title="Proximo">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
-                            <path d="M0 0h24v24H0z" fill="none"/>
-                            <path class="svg" d="M11.67 3.87L9.9 2.1 0 12l9.9 9.9 1.77-1.77L3.54 12z"/>
-                        </svg>
-                    </button>
+<!--                         <button title="Proximo" name="btn-next" onclick="next()">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+                                <path d="M0 0h24v24H0z" fill="none"/>
+                                <path class="svg" d="M11.67 3.87L9.9 2.1 0 12l9.9 9.9 1.77-1.77L3.54 12z"/>
+                            </svg>
+                        </button>
 
-                    <button title="Anterior">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
-                            <path d="M0 0h24v24H0z" fill="none"/>
-                            <path class="svg" d="M5.88 4.12L13.76 12l-7.88 7.88L8 22l10-10L8 2z"/>
-                        </svg>
-                    </button>
+                        <button title="Anterior" name="btn-previous" onclick="prev()">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+                                <path d="M0 0h24v24H0z" fill="none"/>
+                                <path class="svg" d="M5.88 4.12L13.76 12l-7.88 7.88L8 22l10-10L8 2z"/>
+                            </svg>
+                        </button> -->
 
                     <!-- Botões de incluir img e consultar img -->
                     <button title="Incluir imagem">
