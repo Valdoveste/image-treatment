@@ -1,5 +1,6 @@
 <?php
     require_once './src/php/db_actions/db_core.php';
+    require_once './src/php/db_actions/db_initial_images.php';
 ?>
 
 <!DOCTYPE html>
